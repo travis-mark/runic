@@ -15,6 +15,7 @@ struct RunicApp: App {
         WindowGroup {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            Runes()
         }
     }
 }
