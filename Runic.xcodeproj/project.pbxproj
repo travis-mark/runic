@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F0B3C8125EDBBD700D5A67B /* Runes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B3C8025EDBBD700D5A67B /* Runes.swift */; };
-		1F0B3C8225EDBBD700D5A67B /* Runes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B3C8025EDBBD700D5A67B /* Runes.swift */; };
+		1F0B3C8125EDBBD700D5A67B /* Rune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B3C8025EDBBD700D5A67B /* Rune.swift */; };
+		1F0B3C8225EDBBD700D5A67B /* Rune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B3C8025EDBBD700D5A67B /* Rune.swift */; };
 		1F0B3C8825EDBC5D00D5A67B /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0B3C8725EDBC5D00D5A67B /* HealthKit.framework */; };
 		1F0B3C9225EDBCA400D5A67B /* HealthKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B3C9125EDBCA400D5A67B /* HealthKitController.swift */; };
 		1F0B3C9325EDBCA400D5A67B /* HealthKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B3C9125EDBCA400D5A67B /* HealthKitController.swift */; };
@@ -27,7 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F0B3C8025EDBBD700D5A67B /* Runes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runes.swift; sourceTree = "<group>"; };
+		1F0B3C8025EDBBD700D5A67B /* Rune.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rune.swift; sourceTree = "<group>"; };
 		1F0B3C8525EDBC5D00D5A67B /* Runic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Runic.entitlements; sourceTree = "<group>"; };
 		1F0B3C8725EDBC5D00D5A67B /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		1F0B3C9125EDBCA400D5A67B /* HealthKitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitController.swift; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 				1FA0D94925EDB84C00073F66 /* Persistence.swift */,
 				1FA0D94A25EDB84C00073F66 /* Assets.xcassets */,
 				1FA0D94525EDB84C00073F66 /* Runic.xcdatamodeld */,
-				1F0B3C8025EDBBD700D5A67B /* Runes.swift */,
+				1F0B3C8025EDBBD700D5A67B /* Rune.swift */,
 				1F0B3C9125EDBCA400D5A67B /* HealthKitController.swift */,
 				1F0B3C9725EDC7EA00D5A67B /* FakeHealthKit.swift */,
 			);
@@ -227,7 +227,7 @@
 				1FA0D95D25EDB84C00073F66 /* RunicApp.swift in Sources */,
 				1F0B3C9825EDC7EA00D5A67B /* FakeHealthKit.swift in Sources */,
 				1FA0D95F25EDB84C00073F66 /* ContentView.swift in Sources */,
-				1F0B3C8125EDBBD700D5A67B /* Runes.swift in Sources */,
+				1F0B3C8125EDBBD700D5A67B /* Rune.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +241,7 @@
 				1FA0D95E25EDB84C00073F66 /* RunicApp.swift in Sources */,
 				1F0B3C9925EDC7EA00D5A67B /* FakeHealthKit.swift in Sources */,
 				1FA0D96025EDB84C00073F66 /* ContentView.swift in Sources */,
-				1F0B3C8225EDBBD700D5A67B /* Runes.swift in Sources */,
+				1F0B3C8225EDBBD700D5A67B /* Rune.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

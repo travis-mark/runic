@@ -47,11 +47,13 @@ class HealthKitController: ObservableObject {
                 onReady(execute: execute)
             case .supportsMethod:
                 HKHealthStore().requestAuthorization(toShare: toShare, read: toRead) { (success, error) in
-                    if success {
-                        self.state = .ready
-                    } else if let error = error {
-                        self.error = error
-                        self.state = .failed(error: .supportsMethod)
+                    DispatchQueue.main.async {
+                        if success {
+                            self.state = .ready
+                        } else if let error = error {
+                            self.error = error
+                            self.state = .failed(error: .supportsMethod)
+                        }
                     }
                 }
             }
